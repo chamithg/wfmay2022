@@ -1,5 +1,11 @@
 https://github.com/chamithg/wfmay2022.git
 
- git init
+1.git init           ---> only one time
 
-text turns green
+<----text turns green
+
+2. git remote add origin <link of the repository>     ---> only one time
+3. git add . ( . if pushing all files, else git add <filenme>)   ---> only one time
+4. git  branch -M Main
+5. git commit -m "the name of preference"
+6. git push origin Main
