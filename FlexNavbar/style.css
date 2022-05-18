@@ -1,0 +1,34 @@
+.nav {
+  display: flex;
+  background-color: rgb(82, 80, 80);
+  color: white;
+  padding: 10px;
+  font-family: fantasy;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding-left: 30px;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  width: 500px;
+  align-items: center;
+}
+li {
+  list-style: none;
+}
+li a {
+  width: 20px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.686);
+}
+li a:hover {
+  color: white;
+}
+.btn {
+  border: 2px solid black;
+  background-color: rgb(104, 165, 185);
+  padding: 10px;
+  box-shadow: 5px 5px 1px black;
+}

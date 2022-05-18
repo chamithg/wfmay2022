@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  height: 50px;
+  margin-top: 20px;
+  gap: 20px;
+}
+.row div {
+  background-color: rgb(26, 173, 173);
+  padding: 18px;
+  align-items: center;
+}
+.col {
+  flex: 1;
+}
+.col-2 {
+  flex: 2;
+}
+.col-3 {
+  flex: 3;
+}
