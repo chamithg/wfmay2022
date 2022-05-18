@@ -1,0 +1,59 @@
+* {
+  font-family: "Antonio", sans-serif;
+  color: ghostwhite;
+}
+
+body {
+  background-color: black;
+  padding: 20px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  align-items: center;
+}
+
+ul :nth-child(1) {
+  color: red;
+  font-size: 40px;
+}
+ul li:hover {
+  color: red;
+}
+
+ul :nth-child(1):hover {
+  color: red;
+}
+
+.nav-right {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.nav-img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.search {
+  height: 20px;
+}
+.container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.anime > img {
+  height: 200px;
+  width: 300px;
+}
