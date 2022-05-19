@@ -1,0 +1,137 @@
+* {
+}
+
+/* navbar */
+
+.nav {
+  height: 50px;
+  background-color: rgb(50, 50, 50);
+  color: white;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+li {
+  margin: 5px;
+}
+
+li:hover {
+  color: aquamarine;
+}
+
+button {
+  background-color: rgb(34, 107, 123);
+  border: none;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+/* nav ends */
+
+/* layout */
+.body-container {
+  display: flex;
+}
+/* layout ends */
+
+/* user card */
+.container {
+  border: 2px solid rgb(213, 206, 206);
+  width: 540px;
+  position: relative;
+  background-color: whitesmoke;
+  margin: 20px;
+}
+.card-header {
+  height: 100px;
+  background-color: rgb(35, 110, 110);
+}
+
+.img-container {
+  position: absolute;
+  top: 60px;
+  left: 20px;
+  height: 80px;
+  background-color: white;
+  width: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.card-info {
+  padding: 20px;
+}
+
+.img-location,
+.img-gear {
+  height: 17px;
+  margin-right: 20px;
+}
+
+a {
+  color: rgb(0, 157, 255);
+}
+/* usercard end */
+/* edu info */
+.edu-info {
+  border: 2px solid rgb(213, 206, 206);
+  /* padding: 20px; */
+  width: 540px;
+  margin: 20px;
+}
+.edu-title {
+  background-color: rgb(50, 50, 50);
+  height: 50px;
+  color: white;
+  padding: 20px;
+}
+.edu-body {
+  padding: 20px;
+}
+
+/* edu info end*/
+/* connect req */
+.connect-req {
+  border: 2px solid rgb(213, 206, 206);
+  padding: 20px;
+  width: 300px;
+  margin: 20px 0;
+}
+/* connect req end */
+/* connections */
+.connections {
+  border: 2px solid rgb(213, 206, 206);
+  padding: 20px;
+  width: 300px;
+}
+/* connections end */
+
+.avatar-img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+h3 {
+  display: flex;
+  align-items: center;
+}

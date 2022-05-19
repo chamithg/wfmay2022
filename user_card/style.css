@@ -1,0 +1,44 @@
+* {
+}
+.container {
+  width: 500px;
+  position: relative;
+  background-color: whitesmoke;
+}
+.card-header {
+  height: 100px;
+  background-color: rgb(35, 110, 110);
+}
+
+.img-container {
+  position: absolute;
+  top: 60px;
+  left: 20px;
+  height: 80px;
+  background-color: white;
+  width: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.card-info {
+  padding: 20px;
+}
+
+.img-location,
+.img-gear {
+  height: 17px;
+  margin-right: 20px;
+}
+
+a {
+  color: rgb(0, 157, 255);
+}
