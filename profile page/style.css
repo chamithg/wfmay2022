@@ -2,14 +2,18 @@
   margin: 0;
   padding: 0;
 }
-
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 8px;
+}
 /* navbar */
 .nav {
   background-color: rgb(50, 50, 50);
   display: flex;
   justify-content: center;
 }
-
 .nav-content {
   width: 908px;
   height: 50px;
@@ -28,15 +32,9 @@ ul {
   list-style: none;
   justify-content: space-evenly;
 }
-
 li {
   margin: 5px;
 }
-
-li:hover {
-  color: aquamarine;
-}
-
 button {
   background-color: rgb(34, 107, 123);
   border: none;
@@ -45,7 +43,6 @@ button {
   font-size: 20px;
 }
 /* nav ends */
-
 /* layout */
 .body-area {
   display: flex;
@@ -57,7 +54,6 @@ button {
   justify-content: space-between;
 }
 /* layout ends */
-
 /* user card */
 .container {
   border: 2px solid rgb(213, 206, 206);
@@ -70,7 +66,6 @@ button {
   height: 100px;
   background-color: rgb(35, 110, 110);
 }
-
 .img-container {
   position: absolute;
   top: 60px;
@@ -83,23 +78,20 @@ button {
   justify-content: center;
   align-items: center;
 }
-
 .img-container img {
   height: 70px;
   width: 70px;
   border-radius: 50%;
 }
-
 .card-info {
   padding: 20px;
+  padding-top: 40px;
 }
-
 .img-location,
 .img-gear {
   height: 17px;
   margin-right: 20px;
 }
-
 a {
   color: rgb(0, 157, 255);
 }
@@ -119,31 +111,59 @@ a {
 .edu-body {
   padding: 20px;
 }
-
 /* edu info end*/
 /* connect req */
-.connect-req {
-  border: 2px solid rgb(213, 206, 206);
-  padding: 20px;
-  width: 300px;
-  margin: 20px 0;
-}
-/* connect req end */
-/* connections */
+.connect-req,
 .connections {
   border: 2px solid rgb(213, 206, 206);
-  padding: 20px;
-  width: 300px;
+  width: 340px;
+  margin: 20px 0;
 }
-/* connections end */
+.connect-req-title,
+.connections-title {
+  background-color: rgb(50, 50, 50);
+  color: white;
+  padding: 10px 20px;
+}
+.connect-req-body,
+.connections-body {
+  padding: 20px;
+}
 
+.connect-req span,
+.connections span {
+  background-color: rgb(213, 206, 206);
+  padding: 2px 10px;
+  min-width: 40px;
+  margin: 2px;
+  border-radius: 50%;
+}
+/* connect req end */
 .avatar-img {
   height: 50px;
   width: 50px;
   border-radius: 50%;
   margin-right: 20px;
 }
+.action-img {
+  height: 30px;
+  width: 30px;
+  margin-left: 20px;
+  position: absolute;
+}
+.accept {
+  right: 45px;
+}
+.close {
+  right: 10px;
+}
+.view-more {
+  display: block;
+  padding: 10px;
+  border: 2px solid rgb(213, 206, 206);
+}
 h3 {
   display: flex;
   align-items: center;
+  position: relative;
 }
