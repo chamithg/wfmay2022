@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  display: flex;
+  background-color: gray;
+  height: 40px;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.nav-content {
+  margin: 10px;
+  width: 900px;
+  justify-content: space-between;
+  display: flex;
+}
+.nav button {
+  width: 100px;
+  background-color: rgb(56, 56, 195);
+  color: white;
+  box-shadow: 3px 3px 3px black;
+}
+.nav input {
+  width: 300px;
+  border: 2px solid black;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+}
+.body-content {
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+}
+.card-1,
+.card-2,
+.card-3 {
+  border: 2px solid black;
+  margin: 10px;
+}
+.col-1 {
+  width: 580px;
+}
+
+.card-3 {
+  width: 310px;
+  padding: 20px;
+}
+.card-1,
+.card-2 {
+  display: flex;
+  padding: 20px;
+}
+.card-content-1 {
+  width: 250px;
+  text-align: center;
+}
+.card-content-1 button {
+  background-color: rgb(225, 181, 104);
+  width: 100px;
+  box-shadow: 3px 3px 3px black;
+  padding: 10px;
+}
+
+.card-3 button {
+  background-color: rgb(66, 127, 34);
+  width: 100px;
+  box-shadow: 3px 3px 3px black;
+  padding: 10px;
+  width: 300px;
+}
+p {
+  font-size: 1.5rem;
+}
+body > h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 20px;
+}
+
+.italic {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.hidden {
+  opacity: 0;
+}
