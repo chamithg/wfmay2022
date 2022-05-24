@@ -12,9 +12,9 @@
       <div class="nav-content">
         <h1>DOJO weather</h1>
         <ul>
-          <li>Burbank</li>
-          <li>Chicago</li>
-          <li>Dalas</li>
+          <li onclick="postAlert()">Burbank</li>
+          <li onclick="postAlert()">Chicago</li>
+          <li onclick="postAlert()">Dalas</li>
         </ul>
       </div>
     </div>
@@ -25,7 +25,9 @@
           show temperature in
           <span>
             <select>
-              <option>C</option>
+              <option>--</option>
+              <option value="c">ᵒc</option>
+              <option value="f">ᵒf</option>
             </select>
           </span>
         </h4>
@@ -34,48 +36,51 @@
       <div class="days">
         <div class="day">
           <h1>Today</h1>
-          <img src="/assets/some_rain.png" alt="" />
+          <img src="./assets/some_rain.png" alt="" />
           <p>Some Rain</p>
           <h3>
-            24 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>
-              18
+            ᵒ24
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>
+              ᵒ18
             </span>
           </h3>
         </div>
         <div class="day">
           <h1>Tomorow</h1>
-          <img src="/assets/some_sun.png" alt="" />
+          <img src="./assets/some_sun.png" alt="" />
           <p>Some Sun</p>
           <h3>
-            27 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
-              >19
+            ᵒ27
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+              >ᵒ19
             </span>
           </h3>
         </div>
         <div class="day">
           <h1>Friday</h1>
-          <img src="/assets/some_clouds.png" alt="" />
+          <img src="./assets/some_clouds.png" alt="" />
           <p>Some Clouds</p>
           <h3>
-            21 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
-              >16
+            ᵒ21
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+              >ᵒ16
             </span>
           </h3>
         </div>
         <div class="day">
           <h1>Today</h1>
-          <img src="/assets/some_sun.png" alt="" />
+          <img src="./assets/some_sun.png" alt="" />
           <p>Some Sun</p>
           <h3>
-            26&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <span>21 </span>
+            ᵒ26&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span>ᵒ21 </span>
           </h3>
         </div>
       </div>
 
-      <div class="cookie">
+      <div class="cookie" id="cookie">
         <div class="cookie-logo">
-          <img src="/assets/cookie.png" alt="" />
+          <img src="./assets/cookie.png" alt="" />
         </div>
         <div class="cookie-content">
           <h3>Stop! coolie time</h3>
@@ -85,8 +90,9 @@
             traffic. <span>Read more...</span>
           </p>
         </div>
-        <button>I accept</button>
+        <button onclick="removeCookie()">I accept</button>
       </div>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
